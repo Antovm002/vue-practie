@@ -1,0 +1,78 @@
+body {
+  background-color: #1e1e1e;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid {
+  height: 100vh;
+  padding: 0;
+}
+
+.car-display {
+  background-color: #2a2a2a;
+}
+
+.car-info h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.car-info p {
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+.feature.card {
+  background-color: #333;
+  margin: 1rem;
+  flex-basis: calc(50% - 2rem);
+  color: white;
+  border: none;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.feature-info h5 {
+  margin: 0;
+  color: #ddd;
+}
+
+.feature-info p {
+  color: #999;
+}
+
+.map-and-call {
+  padding: 2rem;
+  color: white;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.map-display {
+  background-color: #333;
+  flex-grow: 1;
+  margin-bottom: 2rem;
+}
+
+.call-display {
+  background-color: #252525;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.caller-info h2 {
+  font-size: 1.5rem;
+}
+
+.caller-info p {
+  font-size: 1rem;
+  color: #aaa;
+}

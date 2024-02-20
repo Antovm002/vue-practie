@@ -1,0 +1,14 @@
+name: anto
+recipe: lamp
+config:
+  webroot: ./public
+services:
+  appserver:
+          type: php:8.2
+  node:
+          type: node:18
+tooling:
+  npm:
+    service: node
+  node:
+    service: node 
